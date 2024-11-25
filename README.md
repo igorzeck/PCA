@@ -29,7 +29,7 @@ Ambos links abaixos contém o mesmo *dataset*. Recomenda-se o da ANTAQ, para pod
 
 **Gov.br**: https://dados.gov.br/dados/organizacoes/visualizar/agencia-nacional-de-transportes-aquaviarios
 
-*Datasets* de **Carga de 2018**, **Carga Conteinerizada 2018** e *dataset* intermediário com importações de Santos podem ser encontrados zipados em "datasets/datasets_zip.zip".
+O *dataset* intermediário com importações de Santos (**"df_rus_ua_psantos.csv"**) podem ser encontrados zipados em **"datasets/datasets_zip.zip"** junto com o arquivo *pickle* com o tipos de dados e também o *dataframe* **"df_mestre"**, contendo a junção do df_rus_ua_psantos.csv com as cargas conteinerizadas correspondentes.
 
 ## Execução dos scripts
 

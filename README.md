@@ -1,4 +1,10 @@
 # README
+## Trabalho
+
+O repositório contém tanto o PDF quanto o .odt original.
+
+Os scripts analisados no trabalho encontram-se em "PCA_Santos.ipynb"
+
 ## Dependências
 
 Encontram-se no arquivo "requirements.txt"

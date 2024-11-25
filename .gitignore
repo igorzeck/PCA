@@ -3,3 +3,4 @@ local_*
 *.csv
 !Metadados*
 TODO
+Outros/*

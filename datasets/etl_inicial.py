@@ -1,7 +1,7 @@
 import pandas as pd
 
-path_arq_orig = "../../ANTAQ/Instalacao_Origem.csv"
-path_arq_dest = "../../ANTAQ/Instalacao_Destino.csv"
+path_arq_orig = "Instalacao_Origem.csv"
+path_arq_dest = "Instalacao_Destino.csv"
 
 arq_sep = ";"
 
@@ -22,7 +22,7 @@ df_dest = pd.read_csv(path_arq_dest, sep=arq_sep, usecols=["Destino", "Nome Dest
 def santos_importacao():
     df_carga_mestre = pd.DataFrame()  # Contera todos os anos
     print("Importações de Santos de Ucrânia e Rússia!")
-    path_file = "datasets/df_rus_ua_psantos.csv"
+    path_file = "df_rus_ua_psantos.csv"
 
     dtype_dict = pd.read_pickle("aux_carga_dtypes.pkl").to_dict()
 
